@@ -1,0 +1,6 @@
+CRITICAL - 2021-03-10 19:26:03 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Tes_framework\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Tes_framework\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Tes_framework\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Tes_framework\spark(53): require('C:\\xampp\\htdocs...')
+#4 {main}
